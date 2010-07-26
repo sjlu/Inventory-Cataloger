@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/catalog/!svn/ver/100/install
+END
+database.sql
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/catalog/!svn/ver/100/install/database.sql
+END

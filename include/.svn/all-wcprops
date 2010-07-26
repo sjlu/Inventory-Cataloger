@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/catalog/!svn/ver/73/include
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/catalog/!svn/ver/23/include/style.css
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/catalog/!svn/ver/1/include/database.php
+END
+messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/catalog/!svn/ver/15/include/messages.php
+END
+functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/catalog/!svn/ver/73/include/functions.php
+END
