@@ -8,7 +8,7 @@ include './include/functions.php';
 
 <body>
 
-<?php if($action == NULL) { ?>
+<?php if($_GET['action'] == NULL) { ?>
 
 
 <?php general('What would you like to do?'); ?>
@@ -24,23 +24,23 @@ include './include/functions.php';
 
 <?php // this is only a template file which calls all the other actions in. ?>
 
-<?php } elseif($action == 'add_item') { ?>
+<?php } elseif($_GET['action'] == 'add_item') { ?>
 	
 	<?php include 'action.add_item.php'; ?>
 	
-<?php } elseif($action == 'locate') { ?>
+<?php } elseif($_GET['action'] == 'locate') { ?>
 
 	<?php include 'action.locate.php'; ?>
 	
-<?php } elseif($action == 'browse') { ?>
+<?php } elseif($_GET['action'] == 'browse') { ?>
 	
 	<?php include 'action.browse.php'; ?>
 	
-<?php } elseif($action == 'request') { ?>
+<?php } elseif($_GET['action'] == 'request') { ?>
 
 	<?php include 'action.request.php'; ?>
 
-<?php } elseif($action == 'order') { ?>
+<?php } elseif($_GET['action'] == 'order') { ?>
 	
 	<?php include 'action.order.php'; ?>
 

@@ -9,5 +9,5 @@ $config['db']['username'] = '';
 $config['db']['password'] = '';
 $config['db']['table'] = '';
 
-$db = new BurstMySQL ($config['db']['host'], $config['db']['username'], $config['db']['password'], $config['db']['table']);	
+$db = new BurstMySQL ($config['db']['host'], $config['db']['username'], $config['db']['password'], $config['db']['table']);   
 ?>
